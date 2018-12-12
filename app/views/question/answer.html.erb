@@ -1,0 +1,8 @@
+<form action="/answer" method="get">
+  <input type="text" name="answer" >
+  <input type="submit">
+</form>
+
+<p>the answer is <% @answer = [:answer]%>  </p>
+
+<%= link_to "ask another question", ask_path%>
